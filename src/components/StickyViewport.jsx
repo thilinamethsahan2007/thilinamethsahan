@@ -529,7 +529,7 @@ export const StickyViewport = () => {
                     gridArea: "1/1",
                     scale: socialsScale,
                     opacity: socialsOpacity,
-                    pointerEvents: scroll > socialsStart ? "auto" : "none"
+                    pointerEvents: useTransform(scrollYProgress, v => v > socialsStart - 0.01 ? "auto" : "none")
                 }}
             >
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100%" }}>
