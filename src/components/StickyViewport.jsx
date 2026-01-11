@@ -375,7 +375,8 @@ export const StickyViewport = () => {
                     gridArea: "1/1",
                     opacity: projectsOpacity,
                     width: "100%",
-                    overflow: "visible"
+                    overflow: "visible",
+                    pointerEvents: useTransform(scrollYProgress, v => (v > 0.63 && v < projectsFadeEnd) ? "auto" : "none")
                 }}
             >
                 <motion.div
