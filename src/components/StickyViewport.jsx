@@ -303,9 +303,9 @@ export const StickyViewport = () => {
                         <motion.div
                             animate={{
                                 boxShadow: [
-                                    "0 0 30px rgba(139, 92, 246, 0.5), 0 0 60px rgba(0, 240, 255, 0.3), 0 0 90px rgba(139, 92, 246, 0.2)",
-                                    "0 0 40px rgba(0, 240, 255, 0.6), 0 0 80px rgba(139, 92, 246, 0.4), 0 0 120px rgba(0, 240, 255, 0.25)",
-                                    "0 0 30px rgba(139, 92, 246, 0.5), 0 0 60px rgba(0, 240, 255, 0.3), 0 0 90px rgba(139, 92, 246, 0.2)"
+                                    "0 0 20px rgba(139, 92, 246, 0.3), 0 0 50px rgba(0, 240, 255, 0.2)",
+                                    "0 0 30px rgba(139, 92, 246, 0.5), 0 0 70px rgba(0, 240, 255, 0.4)",
+                                    "0 0 20px rgba(139, 92, 246, 0.3), 0 0 50px rgba(0, 240, 255, 0.2)"
                                 ]
                             }}
                             transition={{
@@ -315,7 +315,7 @@ export const StickyViewport = () => {
                                 position: "absolute",
                                 inset: "-3px",
                                 borderRadius: "50%",
-                                border: "2px solid rgba(139, 92, 246, 0.5)",
+                                // border: "2px solid rgba(139, 92, 246, 0.5)", // Removed dark ring
                             }}
                         />
 
