@@ -609,14 +609,7 @@ export const StickyViewport = () => {
                         })}
                     </div>
 
-                    <div style={{
-                        position: "absolute",
-                        bottom: "2rem",
-                        opacity: 0.5,
-                        fontSize: "0.8rem",
-                        letterSpacing: "2px",
-                        textTransform: "uppercase"
-                    }}>
+                    <div style={{ marginTop: "4rem", opacity: 0.5, fontSize: "0.8rem", letterSpacing: "2px", textTransform: "uppercase" }}>
                         {siteSettings.copyright_text}
                     </div>
                 </div>
